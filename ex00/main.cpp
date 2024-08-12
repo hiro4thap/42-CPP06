@@ -11,7 +11,9 @@ void	test(std::string literal)
 
 int	main()
 {
-	Log::nl("Caracter", CYAN);
+	//ScalarConverter sc; //-> compile error;
+
+	Log::nl("Character", CYAN);
 	test("a");
 	test("K");
 	test(".");

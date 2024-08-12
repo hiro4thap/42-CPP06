@@ -103,3 +103,23 @@ void	ScalarConverter::convert(const std::string &literal)
 		std::cout << "double: " << "impossible" << "\n";
 	}
 }
+
+ScalarConverter::ScalarConverter()
+{
+}
+
+ScalarConverter::~ScalarConverter()
+{
+}
+
+ScalarConverter::ScalarConverter(const ScalarConverter &rhs)
+{
+	(void)rhs;
+}
+
+ScalarConverter ScalarConverter::operator=(const ScalarConverter &rhs)
+{
+	(void)rhs;
+	return *this;
+}
+
